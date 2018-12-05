@@ -17,6 +17,7 @@
 
 
 확장 프로그램 적용시, http://www.todayhumor.co.kr 내에서 video 태그중 source src 가 '__ANIGIF.mp4' 로 끝나는 경우 img 태그로 대체된다.
+완벽히 동작하지 않는 경우가 있을 수 있으며, 확장 프로그램의 사용으로 인해 발생하는 어떠한 문제에 대해서도 책임지지 않습니다.
 
 License
 -
