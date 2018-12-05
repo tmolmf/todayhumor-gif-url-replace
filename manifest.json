@@ -8,7 +8,7 @@
     },
 	  "content_scripts": [ {
 		"all_frames": true,
-		"js": ["inject.js"],
+		"js": ["replace.js"],
 		"matches": ["http://www.todayhumor.co.kr/*"],
 		"run_at": "document_end"
 	  }],
@@ -19,6 +19,6 @@
 		"http://www.todayhumor.co.kr/*"
     ],
   "web_accessible_resources": [
-    "inject.js"
+    "replace.js"
   ]
 }
