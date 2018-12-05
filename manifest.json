@@ -3,9 +3,6 @@
     "version": "0.0.1",
     "manifest_version": 2,
     "description": "오늘의유머 gif 링크 url 변경",
-    "background": {
-		"page": "background.html"
-    },
 	  "content_scripts": [ {
 		"all_frames": true,
 		"js": ["replace.js"],
