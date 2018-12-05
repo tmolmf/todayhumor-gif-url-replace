@@ -2,7 +2,7 @@
 	setTimeout(function() {
 		var videos = document.querySelectorAll("video"); 
 			//console.log('start');
-		videos.forEach(function(video){
+		videos.forEach(function(video){ 
 			//console.log(video);
 			if(video.children[0].src.includes('__ANIGIF.mp4'))
 				var div = document.createElement('div');
