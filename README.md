@@ -16,7 +16,7 @@
 6. 확장 프로그램이 추가 되며, 주소창 우측에 버튼이 생긴것을 확인 할 수 있다.
 
 
-확장 프로그램 적용시, http://www.todayhumor.co.kr 내에서 video 태그중 source src 가 '__ANIGIF.mp4' 로 끝나는 경우 img 태그로 대체된다.
+확장 프로그램 적용시, http://www.todayhumor.co.kr 내에서 video 태그중 source src 가 '__ANIGIF.mp4' 로 끝나는 경우 img 태그로 대체되어 우클릭 후 저장으로 바로 gif 로 다운받을 수 있다.
 
 완벽히 동작하지 않는 경우가 있을 수 있으며, 확장 프로그램의 사용으로 인해 발생하는 어떠한 문제에 대해서도 책임지지 않습니다.
 
