@@ -3,7 +3,7 @@
 오늘의유머 gif 업로드시 mp4 영상으로 변환되어 gif 파일을 다운로드해 소장하고자 할때 불편함을 해소하기 위해 작성 하였음.
 
 
-1. 적당한 폴더를 생성한 후 manifest.json, replace.js 파일을 다운로드 한다.
+1. todayhumor-gif-url-replace.zip 파일을 다운로드 한 후, 적당한 폴더에 압축해제 한다.
 
 2. 크롬을 실행한 후 chrome://extensions/ 주소로 이동한다.
 
