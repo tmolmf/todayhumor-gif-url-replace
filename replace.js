@@ -12,5 +12,5 @@
 				video.parentNode.insertBefore(div, video);
 				video.parentNode.removeChild(video);
 			})
-	}, 2000)
+	}, 1000)
 })();
