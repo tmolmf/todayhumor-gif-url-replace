@@ -4,15 +4,21 @@
     "manifest_version": 2,
     "description": "오늘의유머 gif 링크 url 변경",
     "background": {
-        "scripts": [
-            "background.js"
-        ],
-        "persistent": true
+		"page": "background.html"
     },
+	  "content_scripts": [ {
+		"all_frames": true,
+		"js": ["inject.js"],
+		"matches": ["http://www.todayhumor.co.kr/*"],
+		"run_at": "document_end"
+	  }],
     "browser_action": {
         "default_title": "오늘의유머 gif url 변경"
     },
     "permissions": [
 		"http://www.todayhumor.co.kr/*"
-    ]
+    ],
+  "web_accessible_resources": [
+    "inject.js"
+  ]
 }
