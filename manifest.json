@@ -1,6 +1,6 @@
 {
     "name": "todayhumor-gif-mp4-url-replace",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "manifest_version": 2,
     "description": "오늘의유머 gif 링크 url 변경",
 	  "content_scripts": [ {
